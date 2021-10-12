@@ -2,12 +2,10 @@
   "name": "opvl/php-ruleset",
   "description": "php code rulsets",
   "type": "library",
-  "authors": [
-    {
-      "name": "lloyd culpepper",
-      "email": "ahoy@lloydculpepper.uk"
-    }
-  ],
+  "authors": [{
+    "name": "lloyd culpepper",
+    "email": "ahoy@lloydculpepper.uk"
+  }],
   "require": {
     "jakub-onderka/php-console-highlighter": "^0.4.0|^0.3.2",
     "jakub-onderka/php-parallel-lint": "^1.0",
@@ -16,5 +14,6 @@
   },
   "suggest": {
     "niels-de-blaauw/php-doc-check": "Checks if the function requires a doc block"
-  }
+  },
+  "version": "1.1"
 }
